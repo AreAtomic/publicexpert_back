@@ -13,7 +13,7 @@ npm install
 In file config/local.js
 ```
 let localConfig = {
-port: [THE PORT YOU WANT],
+    port: [THE PORT YOU WANT],
 }
 ```
 
@@ -26,8 +26,8 @@ In the file config/default.json:
 
 ```
 {
-"mongoURI": "mongodb+srv://example:passwordexample@cluster0.47836example.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-"jwtSecret": "yourstrongsecrettokenmustbechanged"
+    "mongoURI": "mongodb+srv://example:passwordexample@cluster0.47836example.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "yourstrongsecrettokenmustbechanged"
 }
 ```
 
